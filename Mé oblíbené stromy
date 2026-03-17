@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas fascinujících stromů</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f1;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #2d5a27;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0; }
+        .tree-card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #2d5a27;
+        }
+        h2 {
+            color: #2d5a27;
+            margin-top: 0;
+        }
+        .latin {
+            font-style: italic;
+            color: #666;
+        }
+        .fact-box {
+            background-color: #e8f5e9;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fascinující stromy světa</h1>
+    <p>Průvodce těmi nejzajímavějšími zástupci rostlinné říše</p>
+</header>
+
+<section>
+    <div class="tree-card">
+        <h2>Borovice dlouhověká</h2>
+        <p class="latin">Pinus longaeva</p>
+        <p>Tento strom je považován za jeden z nejstarších živých organismů na planetě. Rostou v extrémních podmínkách vysokých hor v USA. Jejich dřevo je tak husté a pryskyřičnaté, že odolává hnilobě i parazitům po tisíce let.</p>
+        <div class="fact-box">Zajímavost: Nejstaršímu exempláři (Metuzalém) je přes 4 800 let.</div>
+    </div>
+
+    <div class="tree-card">
+        <h2>Baobab Grandidierův</h2>
+        <p class="latin">Adansonia grandidieri</p>
+        <p>Typický symbol Madagaskaru. Tyto stromy vypadají, jako by měly kořeny místo koruny. Mají masivní kmeny, které slouží jako obrovské rezervoáry vody, což jim pomáhá přežít dlouhá období sucha.</p>
+        <div class="fact-box">Zajímavost: Kmen může pojmout až 120 000 litrů vody.</div>
+    </div>
+
+    <div class="tree-card">
+        <h2>Eukalyptus duhový</h2>
+        <p class="latin">Eucalyptus deglupta</p>
+        <p>Jediný druh eukalyptu, který přirozeně roste i na severní polokouli. Jeho kůra se v různých časech odlupuje v pruzích, čímž odhaluje jasně zelenou novou kůru, která postupně tmavne do modré, fialové, oranžové a hnědé barvy.</p>
+        <div class="fact-box">Zajímavost: Kmen vypadá jako ručně malovaný duhovými barvami.</div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 - Můj GitHub Atlas Stromů</p>
+</footer>
+
+</body>
+</html>
